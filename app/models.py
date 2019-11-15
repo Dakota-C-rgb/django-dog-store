@@ -11,7 +11,7 @@ class DogProduct(models.Model):
 
 class Purchase(models.Model):
     dog_product = models.ForeignKey(DogProduct, on_delete=models.PROTECT)
-    purcahsed_at = models.DateField(datetime.now())
+    purchased_at = models.DateField(datetime.now())
 
 class DogTag(models.Model):
     owner_name = models.TextField()
