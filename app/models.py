@@ -17,3 +17,5 @@ class DogTag(models.Model):
     owner_name = models.TextField()
     dog_name = models.TextField()
     dog_birthday = models.DateField()
+    owner_address = models.TextField()
+    dog_color = models.TextField()
